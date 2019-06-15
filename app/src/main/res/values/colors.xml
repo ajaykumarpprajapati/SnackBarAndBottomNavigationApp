@@ -3,4 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorSnakeBarBackground">#008577</color><!-- color primary code -->
+    <color name="colorSnakeBarText">#000000</color>
+    <color name="colorSnakeBarAction">#69f0ae</color><!-- A200 -->
 </resources>
