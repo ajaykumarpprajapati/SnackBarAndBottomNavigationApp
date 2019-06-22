@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">SnackBarAndBottomNavigationApp</string>
     <string name="message_sent">Message Sent</string>
+    <string name="near_by">NearBy</string>
+    <string name="favourites">Favourite</string>
+    <string name="recent">Recents</string>
 </resources>
