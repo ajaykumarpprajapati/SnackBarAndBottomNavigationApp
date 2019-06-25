@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/near_by_item"
+          android:title="@string/near_by"
+          android:orderInCategory="3"
+          android:icon="@drawable/near_by"/>
+
+    <item android:id="@+id/favourite_item"
+          android:orderInCategory="2"
+          android:title="@string/favorites"
+          android:icon="@drawable/favourite"/>
+
+    <item android:id="@+id/recent_item"
+          android:orderInCategory="1"
+          android:title="@string/recent"
+          android:icon="@drawable/history"/>
+</menu>

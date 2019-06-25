@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+            android:id="@+id/scannedImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_navigation_view" />
+
+
+    <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_navigation_view"
+            android:background="?android:windowBackground"
+            app:menu="@menu/navigation_menu"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            app:theme="@style/BottomNavigationTheme"
+            app:itemIconTint="@color/colorAccent"
+            app:itemTextColor="@color/colorAccent"
+            android:layout_width="match_parent">
+
+    </android.support.design.widget.BottomNavigationView>
+    <TextView
+            android:layout_centerInParent="true"
+            android:text="TextView"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</RelativeLayout>
+        <!-- to change background of bottom navaigation view  app:itemBackground="@color/colorAccent"-->
+        <!-- to change background of icon text of bottom navaigation view  app:itemTextColor="@color/colorAccent""-->
