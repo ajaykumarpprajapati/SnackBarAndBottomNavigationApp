@@ -1,5 +1,6 @@
 package india.ajay.snackbarandbottomnavigationapp
 
+<<<<<<< HEAD
 import android.Manifest.permission
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
@@ -11,6 +12,8 @@ import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
 import android.widget.Toast
 import pub.devrel.easypermissions.AfterPermissionGranted
+import android.support.v7.app.AppCompatActivity
+import android.os.Bundle
 
 class BottomNavigationActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks,
 EasyPermissions.RationaleCallbacks, BottomNavigationView.OnNavigationItemSelectedListener {
@@ -30,6 +33,7 @@ EasyPermissions.RationaleCallbacks, BottomNavigationView.OnNavigationItemSelecte
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bottom_navigation)
+
         textView = findViewById(R.id.textView)
         bottomNavigationView = findViewById(R.id.bottom_navigation_view)
         bottomNavigationView?.setOnNavigationItemSelectedListener(this)
@@ -120,4 +124,5 @@ EasyPermissions.RationaleCallbacks, BottomNavigationView.OnNavigationItemSelecte
 //        intent.putExtra(ScanActivity.EXTRA_LANGUAGE, "en") // Set language - optional
 //        startActivityForResult(intent, REQUEST_CODE_SCAN)
 //    }
+
 }

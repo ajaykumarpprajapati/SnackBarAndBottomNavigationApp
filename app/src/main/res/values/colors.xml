@@ -7,4 +7,5 @@
     <color name="colorSnakeBarText">#000000</color>
     <color name="colorSnakeBarAction">#69f0ae</color><!-- A200 -->
     <color name="colorBottomNavigation">#009688</color> <!--500-->
+    <color name="colorBottomNavigation">#009688</color>
 </resources>

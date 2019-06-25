@@ -20,4 +20,9 @@
     <string name="camera">Camera</string>
     <string name="location_and_contacts">Location and Contacts</string>
     <string name="sms">SMS</string>
+
+    <string name="near_by">NearBy</string>
+    <string name="favourites">Favourite</string>
+    <string name="recent">Recents</string>
+
 </resources>
