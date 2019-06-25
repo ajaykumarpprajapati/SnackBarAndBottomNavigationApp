@@ -1,6 +1,5 @@
 package india.ajay.snackbarandbottomnavigationapp
 
-<<<<<<< HEAD
 import android.Manifest.permission
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
@@ -12,12 +11,10 @@ import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
 import android.widget.Toast
 import pub.devrel.easypermissions.AfterPermissionGranted
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
 
-class BottomNavigationActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks,
-EasyPermissions.RationaleCallbacks, BottomNavigationView.OnNavigationItemSelectedListener {
-
+class BottomNavigationActivity : AppCompatActivity(),
+    EasyPermissions.PermissionCallbacks, EasyPermissions.RationaleCallbacks,
+    BottomNavigationView.OnNavigationItemSelectedListener {
 
     private var bottomNavigationView: BottomNavigationView? = null
     private var textView: TextView? = null
@@ -48,8 +45,6 @@ EasyPermissions.RationaleCallbacks, BottomNavigationView.OnNavigationItemSelecte
         }
         return true
     }
-
-
 
     // region EasyPermissions
     override fun onPermissionsDenied(requestCode: Int, perms: MutableList<String>) {
